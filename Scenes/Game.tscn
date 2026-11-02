@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cbevmjumw4s3x"]
+
+[ext_resource type="PackedScene" uid="uid://xcr2dgnnwaml" path="res://Scenes/Nose.tscn" id="1_iukft"]
+
+[node name="Game" type="Node2D" unique_id=1399871282]
+
+[node name="Objects" type="Node" parent="." unique_id=2010815862]
+
+[node name="Node2D" parent="Objects" unique_id=1974300216 instance=ExtResource("1_iukft")]
+position = Vector2(1080, -749)
